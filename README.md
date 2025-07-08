@@ -15,20 +15,35 @@ FridgeChef は、冷蔵庫の中にある食材を登録・管理し、それに
 
 ## 🗂️ ファイル構成（MVCベース）
 fridge-chef/
+
 ├── index.php
+
 ├── controllers/
+
 │ ├── IngredientController.php
+
 │ └── RecipeController.php
+
 ├── models/
+
 │ ├── Database.php
+
 │ ├── Ingredient.php
+
 │ └── Recipe.php
+
 ├── views/
+
 │ ├── ingredients/
+
 │ │ ├── list.php
+
 │ │ ├── add.php
+
 │ │ └── edit.php
+
 │ └── recipes/
+
 │ └── list.php
 
 
